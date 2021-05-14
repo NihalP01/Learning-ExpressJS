@@ -34,6 +34,7 @@ router.post('/', (req, res)=> {
 
     student.push(newStudent)
     res.redirect('/')
+    res.json(student)
     console.log("Added successfully!")
 });
 
@@ -73,6 +74,5 @@ router.delete('/:id', (req, res)=>{
     }
 
 });
-
 
 module.exports = router;

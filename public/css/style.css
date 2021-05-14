@@ -1,4 +1,79 @@
-body{
+/* /* body{
     background: rgb(116, 116, 116);
     color: aqua;
+} */
+
+/* .center{
+    color: cyan;
+    background-color: rgb(255, 255, 255);
+    background:white url('logo.jpg') no-repeat left top;
+    /* background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 300px;
+    background-attachment: fixed; scroll
 }
+
+p.small{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: teal;
+    opacity: 0.5;
+}
+
+p.left{
+    color:rgb(0, 0, 0);
+    border-left:6px solid red;
+    background-color: yellow;
+    text-indent: 20px;
+}
+.my-div{
+    margin: 20px;
+    width: 200px;
+    border: 2px solid green; 
+    outline-style: inset;
+    outline-color: greenyellow;
+    outline-offset: 2px;
+}
+
+.link{
+    color: turquoise;
+    background: springgreen;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: white;
+    background: red;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    top: 0;
+    position: fixed;
+    padding: 0px;
+    
+    background-color: springgreen;
+}
+
+li{
+    float: left;
+    display: inline;
+}
+
+li a{
+    padding: 14px 16px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover{
+    background-color: rgb(3, 118, 185);
+}
+
+.dropdown{
+    right: 0px;
+} */

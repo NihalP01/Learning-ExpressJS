@@ -10,6 +10,10 @@ app.engine('handlebars', exphbs());
 app.set('view engine', 'handlebars');
 
 
+//static
+app.use(express.static(path.join(__dirname, 'public')));
+
+
 //using handlebar
 app.get('/', (req, res)=>{
     res.render('home', {
@@ -18,8 +22,6 @@ app.get('/', (req, res)=>{
     })
 });
 
-//static
-app.use(express.static(path.join(__dirname, 'public')));
 
 //Body parser Middleware
 app.use(express.json());
